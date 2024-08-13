@@ -6,7 +6,7 @@ body {
   align-items: center;
   margin: 0;
   font-family: "Indie Flower", cursive;
-  font-size: 40px;
+  font-size: 20px;
   background-image: url('fundo.png');
   background-size: cover; 
   background-position: center;
@@ -19,7 +19,7 @@ button {
   color: white;
   border-radius: 200px;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   margin: 20px;
 }
 
@@ -38,7 +38,7 @@ main {
 }
 
 img {
-  width: 700px;
+  width: 500px;
 }
 
 footer {
