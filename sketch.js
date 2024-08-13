@@ -1,3 +1,13 @@
+let musica;
+
+function preload(){
+  musica=loadSound("fundo.mp3");
+}
+
+function setup() {
+  musica.loop();
+}
+
 const avança = document.querySelectorAll(".proximo");
 
 //forEach pois tem que mostrar para cada vez novas possibilidades;
@@ -23,5 +33,7 @@ atual.classList.remove('ativo');
 document.getElementById(proximoPasso).classList.add('ativo');
 })
 })
+
+
 
 
