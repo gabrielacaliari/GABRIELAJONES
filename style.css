@@ -1,0 +1,60 @@
+body {
+  background-color: #F9B57F;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+  font-size: 60px;
+  background-image: url('fundo.png');
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+button {
+  background-color: #AC4A2B;
+  border: solid 2px #AC4A2B;
+  color: white;
+  border-radius: 200px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.passo {
+  display: none;
+}
+
+.passo.ativo {
+  display: block;
+}
+
+main {
+  max-width: 90%;
+  text-align: center;
+  flex: 1;
+}
+
+img {
+  width: 1000px;
+}
+
+footer {
+  color: white;
+  font-family: "Playwrite AT", cursive;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nome-link {
+  font-family: "Playwrite AT", cursive;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nome-link:hover {
+  text-decoration: underline;
+}
