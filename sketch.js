@@ -6,6 +6,7 @@ function preload(){
 
 function setup() {
   musica.play();
+  musica.loop();
 }
 
 const avança = document.querySelectorAll(".proximo");
