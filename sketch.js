@@ -5,7 +5,6 @@ function preload(){
 }
 
 function setup() {
-  musica.loop();
   musica.play();
 }
 
